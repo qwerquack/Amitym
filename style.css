@@ -42,3 +42,24 @@ list-style: none;
 .two ul li a {
 
 }
+.mobile-error {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .first, .second {
+    display: none;
+  }
+  .mobile-error {
+    display: block;
+  }
+  .mobile-error p {
+    display: block;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
