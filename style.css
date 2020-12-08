@@ -1,0 +1,44 @@
+
+.contain {
+    width: 90%;
+    margin: 0 auto;
+}
+.one {
+    float: right;    
+}
+.one ul {
+    padding: 50px;
+    list-style: none;
+    background-color: black;
+}
+.one li {
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.one ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 28px;
+    padding-right: 50px;
+}
+.one ul li a:hover {
+background-color: blue;
+}
+.two{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.two ul{
+list-style: none;
+}
+.two ul li {
+
+}
+.two ul li a {
+
+}
