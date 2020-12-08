@@ -1,46 +1,68 @@
 
-.contain {
-    width: 90%;
+.firstwrap{
+    position: relative;
     margin: 0 auto;
+    clear: both;
+    padding-top: auto;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    float: right;
 }
-.one {
-    float: right;    
-}
-.one ul {
-    padding: 50px;
-    list-style: none;
+.topmenu {
     background-color: black;
+    text-align: right;
 }
-.one li {
+.topmenu li {
+    list-style: none;
+    margin: auto;
+    background-color: black;
+    width: auto;
     display: inline-block;
-    margin-left: 90px;
-    font-size: 20px;
+    padding: 30px;
 }
-.one ul li a{
-    text-decoration: none;
+.topmenu li a {
     color: white;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 28px;
-    padding-right: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
-.one ul li a:hover {
-background-color: blue;
+.topmenu li a:hover{
+    background-color: blue;
 }
-.two{
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+.secondwrap {
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+    padding-top: auto;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
 }
-.two ul{
-list-style: none;
+.conversations {
+    position: relative;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px 10px;
+    clear: both;
+    width: 200px;
+    float: left;
 }
-.two ul li {
-
+.conversations li {
+    font-size: 30px;
+    list-style: none;
+    padding: 30px;
 }
-.two ul li a {
-
+.conversations li a {
+color:white;
+text-decoration: none;
+position: relative;
+display: block;
+height: 40px;
+font-size: 30px;
 }
 .mobile-error {
   display: none;
