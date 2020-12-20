@@ -1,0 +1,186 @@
+*{
+  font-family:cursive;
+  margin:0;
+}
+html {
+  overflow: hidden;
+}
+.content{
+  height:100vh;
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.conversations{
+border: solid 1px black;
+text-align: center;
+background-color:gray;
+grid-row: 1/5;
+grid-column: 1/2;
+padding:1em;
+
+}
+.conversations li{
+  list-style: none;
+  padding: 1.5em;
+  border: solid 1px black;
+ text-align: center;
+ margin-right:30px;
+}
+.conversations li:hover{
+  background:rgb(141, 140, 139);
+}
+.navigation{
+
+border: solid 1px black;
+background-color: gray;
+grid-column:2/7;
+padding:1em;
+padding-top:90px;
+padding-left:250px;
+}
+.navigation li{
+  font-size: 150%;
+  list-style: none;
+  display:inline;
+  border: solid 1px black;
+  padding:1em;
+}
+.navigation li:hover{
+  background:rgb(141, 140, 139);
+}
+.users{
+  border: solid 1px black;
+  background-color:gray;
+  padding:1em;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20%;
+  height: 280%;
+  width: 400%;
+  grid-template-areas:
+    "firstmessage firstmessage . ."
+    ". . reply reply "
+    "secondmessage secondmessage . ."
+    " . . secondreply secondreply"
+    "thirdmessage thirdmessage . ."
+    "thirdreply thirdreply . ."
+    "fourthmessage fourthmessage . ."
+    "fourtreply fourtreply . ."
+    "fifthmessage fifthmessage . ."
+    ". . fifthreply fifthreply "
+    "sixthmessage sixthmessage . ."
+    "sixthreply sixthreply . ."
+    "seventhmessage seventhmessage . ."
+    "seventhreply seventhreply . ."
+    "input input input submit"
+}
+li{
+  list-style:none;
+  text-align:center;
+  border:solid 1px black;
+}
+.users:not(html) {
+overflow-y: scroll;
+}
+
+
+.users div {
+}
+
+.firstmessage {
+grid-area: firstmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+
+.reply {
+grid-area: reply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+
+.secondmessage {
+grid-area: secondmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.secondreply {
+grid-area: secondreply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.thirdmessage {
+grid-area: thirdmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.thirdreply {
+grid-area: thirdreply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.fourthmessage {
+grid-area: fourthmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.fourtreply {
+grid-area: fourtreply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.fifthmessage {
+grid-area: fifthmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.fifthreply {
+grid-area: fifthreply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.sixthmessage {
+grid-area: sixthmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.sixthreply {
+grid-area: sixthreply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.seventhmessage {
+grid-area: seventhmessage;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+.seventhreply {
+grid-area: seventhreply;
+border:solid 2px black;
+border-radius:20px;
+text-align: center;
+}
+
+.typehere{
+  grid-area:input;
+}
+input{
+  width:90%;
+}
+button{
+  grid-area:input;
+}
